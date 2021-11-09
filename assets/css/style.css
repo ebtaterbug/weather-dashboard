@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    background-image: linear-gradient(to right, rgb(95, 139, 197), rgb(64, 5, 119));
+    text-align: center;
+    padding: 10px;
+}
+
+.recent-searches {
+    min-height: 100vh;
+}
+
+h3 {
+    padding-left: 20px;
+}
+
+.form-input {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.searches li {
+    list-style-type: none;
+    background-color: lightgray;
+    color: rgb(92, 91, 91);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.forecast-data li {
+    list-style-type: none;
+    color: rgb(92, 91, 91);
+    margin: 10px;
+    padding: 0px;
+}
+
+.todays-forcast {
+    width: 100%;
+}
+
+.day {
+    background-color: rgb(114, 113, 122);
+    color: white;
+    margin: 5px;
+}
+
+.container1 {
+    border: solid 1px black;
+}

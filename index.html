@@ -9,10 +9,62 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <div>
-        
-    </div>
+    <h1>Weather Dashboard</h1>
+    <main class="row">
+        <!-- Search By Location -->
+        <div class="card col-3 search-form">
+            <h3 class="font-weight-bold">Search for a City:</h3>
+            <form id="user-form" class="card-body">
+            <input name="city" id="city" type="text" autofocus="true" class="form-input" />
+            <button type="submit" class="btn btn-info btn-block my-2 p-1">Search</button>
+            </form>
+            <div class="recent-searches">
+                <ul class="searches p-0">
+                    <li>Austin</li>
+                    <li>Chicago</li>
+                    <li>New York</li>
+                </ul>
+            </div>
+        </div>
 
+        
+        <!-- Weather Cards For Each Day of the Week-->
+        <div class="col todays-forcast">
+            <div class="container1">
+                <h2>Atlanta (11/9/2021)</h2>
+                <ul class="forecast-data p-0">
+                    <li>Temp: 74.01F</li>
+                    <li>Wind: 6.67 MPH</li>
+                    <li>Humidity: 46 %</li>
+                </ul>
+            </div>
+
+            <h4 class="my-3">5-Day Forecast:</h4>
+
+            <div class="col-9 row container2">
+                <div class="card col day" id="1">
+                Monday
+                </div>
+    
+                <div class="card col day" id="2">
+                Tuesday
+                </div>
+    
+                <div class="card col day" id="3">
+                Wednesday
+                </div>
+    
+                <div class="card col day" id="4">
+                Thursday
+                </div>
+    
+                <div class="card col day" id="5">
+                Friday
+                </div>
+            </div>
+        </div>
+        
+    </Main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="assets\js\script.js"></script>
 </body>
