@@ -16,13 +16,10 @@
             <h3 class="font-weight-bold">Search for a City:</h3>
             <form id="user-form" class="card-body">
             <input name="city" id="city" type="text" autofocus="true" class="form-input" />
-            <button type="submit" class="btn btn-info btn-block my-2 p-1">Search</button>
+            <button type="button" class="btn btn-info btn-block my-2 p-1" id="btn" >Search</button>
             </form>
             <div class="recent-searches">
                 <ul class="searches p-0">
-                    <li>Austin</li>
-                    <li>Chicago</li>
-                    <li>New York</li>
                 </ul>
             </div>
         </div>
@@ -31,41 +28,58 @@
         <!-- Weather Cards For Each Day of the Week-->
         <div class="col todays-forcast">
             <div class="container1">
-                <h2>Atlanta (11/9/2021)</h2>
+                <h2><span class="city"></span> <span id="date"></span></h2>
                 <ul class="forecast-data p-0">
-                    <li>Temp: 74.01F</li>
-                    <li>Wind: 6.67 MPH</li>
-                    <li>Humidity: 46 %</li>
+                    <li>Temp: <span id="temp"></span></li>
+                    <li>Wind: <span id="wind"></span></li>
+                    <li>Humidity: <span id="humidity"></span></li>
+                    <li>UV Index: <span id="uv-index"></span></li>
                 </ul>
             </div>
 
             <h4 class="my-3">5-Day Forecast:</h4>
 
             <div class="col-9 row container2">
-                <div class="card col day" id="1">
-                Monday
+                <div class="col day" id="1">
+                    <h4>11/9/2021</h4>
+                    <p>Temp: 73.72F</p>
+                    <p>Wind: 9.53 MPH</p>
+                    <p>Humidity: 66 %</p>
                 </div>
     
-                <div class="card col day" id="2">
-                Tuesday
+                <div class="col day" id="2">
+                    <h4>11/9/2021</h4>
+                    <p>Temp: 73.72F</p>
+                    <p>Wind: 9.53 MPH</p>
+                    <p>Humidity: 66 %</p>
                 </div>
     
-                <div class="card col day" id="3">
-                Wednesday
+                <div class="col day" id="3">
+                    <h4>11/9/2021</h4>
+                    <p>Temp: 73.72F</p>
+                    <p>Wind: 9.53 MPH</p>
+                    <p>Humidity: 66 %</p>
                 </div>
     
-                <div class="card col day" id="4">
-                Thursday
+                <div class="col day" id="4">
+                    <h4>11/9/2021</h4>
+                    <p>Temp: 73.72F</p>
+                    <p>Wind: 9.53 MPH</p>
+                    <p>Humidity: 66 %</p>
                 </div>
     
-                <div class="card col day" id="5">
-                Friday
+                <div class="col day" id="5">
+                    <h4>11/9/2021</h4>
+                    <p>Temp: 73.72F</p>
+                    <p>Wind: 9.53 MPH</p>
+                    <p>Humidity: 66 %</p>
                 </div>
             </div>
         </div>
         
     </Main>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="assets\js\script.js"></script>
 </body>
 </html>

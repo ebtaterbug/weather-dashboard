@@ -44,11 +44,12 @@ h3 {
 }
 
 .day {
-    background-color: rgb(114, 113, 122);
+    background-color: rgb(62, 67, 90);
     color: white;
     margin: 5px;
 }
 
 .container1 {
     border: solid 1px black;
+    padding: 5px;
 }
